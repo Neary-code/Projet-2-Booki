@@ -64,7 +64,7 @@
     flex-direction: row;
     width: 60px;
     height: 20px;
-    padding-left: 20px;
+    padding-left: 40px;
 }
 
 .header-menu {
@@ -161,7 +161,7 @@
 }
 
 .header-info-group {
-    padding-left: 20px;
+    padding-left: 40px;
 }
 
 .header-info-group-headline {
@@ -169,6 +169,11 @@
     border: 2px;
     margin-block-end: 5px;
     margin-block-start: 5px;
+    font-size: 26px;
+}
+
+#p {
+    font-size: 22px;
 }
 
 .headline {
@@ -176,14 +181,8 @@
 }
 
 .search-bar {
-    width: 132px;
+    width: 100%;
     height: 49px;
-    border-radius: 0px 15px 15px 0px;
-    border: 0px 0px 0px 10px;
-    border-top: #F2F2F2;
-    border-width: #F2F2F2;
-    border-left: #F2F2F2;
-    border-right: #F2F2F2;
     display: flex;
     flex-direction: row;
     margin-block-end: 30px;
@@ -212,16 +211,11 @@
 }
 
 .placeholder {
-    font-size: 18px;
+    width: 30%;
     font-weight: 700;
     text-align: center;
     border-top: #F2F2F2 solid 1px;
-    border-left: white;
-    border-right: white;
     border-bottom: #F2F2F2 solid 1px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .placeholder:focus {
@@ -258,21 +252,23 @@
     align-items: center; 
 }
 
+.filter-bar-title-filtres {
+font-size: 14px;
+}
+
 .filters-elements {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
-
 }
 
 .filter-bar {
-    width: 100%;
-    gap: 20px;
+    width: 50%;
+    gap: 10px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
-    padding: 20px;
     padding-left: 0px;
     align-items: center;
 }
@@ -294,59 +290,59 @@
 }
 
 .filter-bar-title-2 {
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .filter-bar-eco {
-    width: 173px;
+    width: 140px;
     height: 50px;
-    padding: 4px 19px 4px 19px;
-    border-radius: 25px 25px 25px 25px;
-    border: 2px 0px 0px 0px;
+    padding: 4px 8px 4px 8px;
+    border-radius: 40px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
     border: 2px solid #D9D9D9
 
 }
 
 .filter-bar-family {
-    width: 134px;
+    width: 90px;
     height: 50px;
-    padding: 4px 19px 4px 19px;
-    border-radius: 25px 25px 25px 25px;
-    border: 2px 0px 0px 0px;
+    padding: 4px 8px 4px 8px;
+    border-radius: 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     border: 2px solid #D9D9D9
 
 
 }
 
 .filter-bar-heart {
-    width: 170px;
+    width: 140px;
     height: 50px;
-    padding: 4px 19px 4px 19px;
-    border-radius: 25px 25px 25px 25px;
-    border: 2px 0px 0px 0px;
+    padding: 4px 8px 4px 8px;
+    border-radius: 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     border: 2px solid #D9D9D9
 
 
 }
 
 .filter-bar-fire {
-    width: 167px;
+    width: 145px;
     height:50px;
-    padding: 4px 19px 4px 19px;
-    border-radius: 25px 25px 25px 25px;
-    border: 2px 0px 0px 0px;
+    padding: 4px 8px 4px 8px;
+    border-radius: 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     border: 2px solid #D9D9D9;
 }
 
@@ -579,7 +575,6 @@ a {
 .activites section {
     display: flex;
     flex-direction: row;
-    gap: 30px;
     padding: 10px 10px;
     margin: 5px 5px;
     align-items: center;
@@ -587,15 +582,12 @@ a {
 }
 
 .activites-cards {
-    width: 100%;
-    background-color: white;
-    box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    align-items: baseline;
     justify-content: space-around;
-    flex-wrap: nowrap;
     margin-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .activites-title { 
@@ -608,10 +600,8 @@ a {
     background-color: white;
     border-radius: 20px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-    align-content: stretch;
     width: 220px;
     height: 380px;
-    justify-content: center;
 }
 
 .activites-cards img {
@@ -652,7 +642,6 @@ a {
 }
 
 .footer-nos-hébergements {
-    width: 20%;
     gap: 5px;
     display: flex;
     flex-direction: column;
@@ -668,14 +657,12 @@ a {
 }
 
 .title-a-propos .title-nos-hebergements .title-assistance {
-    font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
     line-height: 21.13px;
 }
 
 .a-propos .nos-hebergements .assistance {
-    font-family: Raleway;
     font-size: 16px;
     font-weight: 400;
     line-height: 18.78px;
@@ -722,6 +709,10 @@ a {
     width: 100%;
 }
 
+.filter-bar-title-2 {
+    padding-left: 8px;
+}
+
 .filter-bar {
     width: 100%;
     gap: 20px;
@@ -740,6 +731,10 @@ a {
     justify-content: flex-start;
     white-space: nowrap;
 }
+
+.filter-bar-title-filtres {
+    font-size: 16px;
+    }
 
 .hebergements-and-populaires {
     display: flex;
@@ -839,14 +834,18 @@ a {
 }
 
 #logo-booki {
+    display: flex;
+    flex-direction: row;
     width: 60px;
     height: 20px;
+    padding-bottom: 20px;
 }
 
 .header-logo-img {
     width: 100%;
     padding-top: 25px;
-    padding-left: 160px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .header-menu {
@@ -855,28 +854,41 @@ a {
     flex-direction: row;
     justify-content: space-around;
     padding-top: 5px;
-    padding-left: 5px;
-    padding-right: 20px;
+    gap: 0;
 }
 
 #hebergements-text {
-    font-family: Raleway;
     color: #000000;
     font-size: 16px;
+    width: 50%;
+    padding: 14px;
+    border-bottom: 3px #F2F2F2 solid;
+    border-top: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #activites-text {
-    font-family: Raleway;
     color: #000000;
     font-size: 16px;
+    width: 50%;
+    padding: 14px;
+    border-bottom: 3px #F2F2F2 solid;
+    border-top: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #hebergements-text:hover {
     font-size: 16px;
+    border-bottom: 3px #0065FC solid;
 }
 
 #activites-text:hover {
     font-size: 16px;
+    border-bottom: 3px #0065FC solid;
 }
 
 .button-hebergements:hover {
@@ -907,9 +919,10 @@ a {
 
 .headline {
     width: 100%;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 10px;
     margin: 0;
+    padding-left: 15px;
 }
 
 .header-info-group-headline {
@@ -951,10 +964,12 @@ a {
     border: 1px 0px 0px 0px;
     background: #F2F2F2;
 }
+
 .placeholder {
-    position: 2;
+    width: 55%;
     height: 50px;
     font-size: 15px;
+    border: none;
 
 }
 
@@ -972,7 +987,7 @@ a {
     width: 50px;
     height: 50px;
     border-radius: 15px 15px 15px 15px;
-    border: 1px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
     background: #0065FC;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
@@ -982,7 +997,8 @@ a {
 }
 
 .filter-bar-title-filtres {
-    padding-left: 5px;
+    padding-left: 15px;
+    padding-top: 15px;
 }
 .filter-bar {
     width: 90%;
@@ -991,7 +1007,7 @@ a {
 .filters-elements {
     width: 100%;
     flex-flow: row wrap;
-    padding-left: 4px;
+    padding-left: 15px;
 }
 
 .filter-bar-title-2 {
@@ -1001,7 +1017,7 @@ a {
 }
 
 .filter-bar-eco {
-    width: 80px;
+    width: 30%;
     height: 40px;
     padding: 4px 19px 4px 19px;
     border-radius: 25px 25px 25px 25px;
@@ -1014,7 +1030,7 @@ a {
 }
 
 .filter-bar-family {
-    width: 80px;
+    width: 30%;
     height: 40px;
     padding: 4px 19px 4px 19px;
     border-radius: 25px 25px 25px 25px;
@@ -1027,7 +1043,7 @@ a {
 }
 
 .filter-bar-heart {
-    width: 80px;
+    width: 30%;
     height: 40px;
     padding: 4px 19px 4px 19px;
     border-radius: 25px 25px 25px 25px;
@@ -1040,7 +1056,7 @@ a {
 }
 
 .filter-bar-fire {
-    width: 80px;
+    width: 30%;
     height: 40px;
     padding: 4px 19px 4px 19px;
     border-radius: 25px 25px 25px 25px;
@@ -1055,12 +1071,13 @@ a {
 .info-bar {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 90%;
     margin: 0;
+    padding: 15px;
 }
 
 .info-bar-texte {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .icons-info-bar {
@@ -1070,19 +1087,23 @@ a {
     align-items: center;
     background-color: white;
     height: 25px;
-    width: 25px;
+    width: 30px;
     border-radius: 50%;
     border: 2px solid #D9D9D9;
 }
 
 .hebergements-and-populaires section {
-    background-color: white;
-    padding: 0;
+    background-color: #F2F2F2;
+    border-radius: 0;
+    width: 100%;
 }
 
 .hebergements-and-populaires {
     display: flex;
     flex-direction: column-reverse;
+    gap: 0;
+    width: 100%;
+    padding: 20px 0 0 0;
 }
 
 .section-title {
@@ -1139,8 +1160,9 @@ a {
     width: 100%;
 }
 
-.hebergements {
+.hebergements section {
     width: 100%;
+    padding: 0;
 }
 
 .hebergements-cards {
