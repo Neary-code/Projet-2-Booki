@@ -172,10 +172,6 @@
     font-size: 26px;
 }
 
-#p {
-    font-size: 22px;
-}
-
 .headline {
     margin: auto;
 }
@@ -238,10 +234,9 @@
     
 }
 
-.buttom-text {
+#buttom-text {
     width: 100px;
     height: 21px;
-    font-family: Raleway;
     font-size: 15px;
     font-weight: 700;
     line-height: 21.13px;
@@ -937,7 +932,7 @@ a {
     font-size: 15px;
 }
 
-.buttom-text {
+#buttom-text {
     display: none;
 }
 
