@@ -460,7 +460,7 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 40px;
     padding: 10px 10px;
     margin: 5px 5px;
     align-items: center;
@@ -870,11 +870,13 @@ a {
     width: 60px;
     height: 20px;
     padding-bottom: 20px;
+    padding-left: 0;
 }
 
 .header-logo-img {
     width: 100%;
     padding-top: 25px;
+    padding-left: 0;
     display: flex;
     justify-content: space-around;
 }
@@ -893,6 +895,7 @@ a {
     font-size: 16px;
     width: 50%;
     padding: 14px;
+    padding-left: 0;
     border-bottom: 3px #F2F2F2 solid;
     border-top: none;
     display: flex;
