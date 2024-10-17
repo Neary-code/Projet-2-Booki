@@ -413,21 +413,20 @@ a {
 .hebergements-and-populaires section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
-    padding: 30px;
+    padding: 20px;
     box-sizing: border-box;
 }
 
 /****** Hebergements ***********/
 
 .hebergements {
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
 .hebergements-title {
-    padding: 0px 10px 10px 10px;
+    padding-left: 10px;
 }
 
 .card-hebergements {
@@ -436,8 +435,8 @@ a {
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     align-content: stretch;
     width: 28%;
-    height: 170px;
-    padding: 4px;
+    height: 200px;
+    padding: 5px;
 }
 
 .hebergements-bloc-1 {
@@ -445,8 +444,6 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 40px;
-    padding: 10px 10px;
-    margin: 5px 5px;
     align-items: center;
     justify-content: space-between;
 }
@@ -458,7 +455,7 @@ a {
 
 .hebergements-cards img {
     width: 100%;
-    height: 100px;
+    height: 120px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-fit: cover;
@@ -546,7 +543,7 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0px;
-    padding: 10px 0px 10px 10px;
+    padding: 20px 0px 10px 10px;
 }
 
 /****** Activites ***********/
@@ -745,7 +742,7 @@ a {
 .card-hebergements {
     background-color: white;
     border-radius: 20px;
-    padding: 2px;
+    padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     align-content: stretch;
     width: 29%;
@@ -1122,9 +1119,14 @@ a {
     border-radius: 0;
 }
 
+.hebergements {
+
+}
+
 .hebergements-and-populaires {
     display: flex;
     flex-direction: column-reverse;
+    padding: 0;
 }
 
 .section-title {
@@ -1141,6 +1143,7 @@ a {
     border-radius: 0;
     margin: 0;
     padding-top: 0;
+    background-color: #F2F2F2;
 }
 
 .populaires-cards {
@@ -1167,7 +1170,7 @@ a {
     font-size: 14px;
 }
 
-.hebergements {
+.hebergements section {
     background-color: white;
 }
 
@@ -1175,7 +1178,7 @@ a {
     width: 100%;
     font-size: 18px;
     padding-left: 0;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
 }
 
 .card-hebergements {
