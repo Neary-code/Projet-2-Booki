@@ -411,7 +411,6 @@ a {
 }
 
 .hebergements-and-populaires section {
-    background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 20px;
     box-sizing: border-box;
@@ -423,6 +422,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background-color: var(--main-bg-color);
 }
 
 .hebergements-title {
@@ -494,6 +494,7 @@ a {
 /****** Populaires ***********/
 .populaires {
     width: 32%;
+    background-color: var(--main-bg-color);
 }
 
 .populaires-title {
@@ -509,7 +510,6 @@ a {
 
 .populaires-cards img {
     width: 33%;
-    height: 136px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -1116,10 +1116,6 @@ a {
     border-radius: 0;
 }
 
-.hebergements {
-
-}
-
 .hebergements-and-populaires {
     display: flex;
     flex-direction: column-reverse;
@@ -1167,7 +1163,7 @@ a {
     font-size: 14px;
 }
 
-.hebergements section {
+.hebergements {
     background-color: white;
 }
 
